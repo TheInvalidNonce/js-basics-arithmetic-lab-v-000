@@ -16,4 +16,4 @@ const randomNumber = Math.random() * 21
 
 const randomInteger = Math.floor(randomNumber)
 
-let randomUserID = Math.random(randomInteger)
+const randomUserID = randomInteger + 1000000000
